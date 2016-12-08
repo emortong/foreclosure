@@ -72,4 +72,5 @@ while (stevesLoan.isForeclosed() === false) {
   steve.payDay();
   steve.makePayment();
   month++;
+  monthsUntilEvicted = month;
 }
